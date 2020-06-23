@@ -26,7 +26,7 @@ Template Name: CONTACT
                 </dl>
             </div>
             <div class="col-md-12 effect-fade">
-                <form action="<?php echo esc_url( get_home_url() ); ?>/wp-content/themes/vaihe/php/mailform.php" method="post" id="mail_form">
+                <form action="<?php echo get_template_directory_uri(); ?>/php/mailform.php" method="post" id="mail_form">
                     <dl>
                         <dt>お名前<span>Your Name</span></dt>
                         <dd class="required"><input type="text" id="name_1" name="name_1" value="" placeholder="姓" /> <input type="text" id="name_2" name="name_2" value="" placeholder="名"  /></dd>

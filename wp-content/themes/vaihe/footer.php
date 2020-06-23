@@ -30,6 +30,14 @@
 
 	<?php wp_footer(); ?>
 
+
+<script src='<?php echo get_template_directory_uri(); ?>/js/jquery-3.5.1.min.js'></script>
+<script src='<?php echo get_template_directory_uri(); ?>/js/scroll.js'></script>
+<script src='<?php echo get_template_directory_uri(); ?>/js/box-animaion.js'></script>
+<script src='<?php echo get_template_directory_uri(); ?>/js/menu.js'></script>
+<script src='<?php echo get_template_directory_uri(); ?>/js/lity.min.js'></script>
+<script src='<?php echo get_template_directory_uri(); ?>/js/page-top.js'></script>
+
 </body>
 
 </html>

@@ -12,13 +12,6 @@
 <link rel="stylesheet" href="<?php echo esc_url( get_home_url() ); ?>/wp-content/themes/vaihe/css/mailform.css" type="text/css" media="screen" >
 <link rel="stylesheet" href="<?php echo esc_url( get_home_url() ); ?>/wp-content/themes/vaihe/css/jquery.datetimepicker.css" type="text/css" media="screen">
 
-<script src='<?php echo esc_url( get_home_url() ); ?>/wp-content/themes/vaihe/js/jquery-3.5.1.min.js'></script>
-<script src='<?php echo esc_url( get_home_url() ); ?>/wp-content/themes/vaihe/js/scroll.js'></script>
-<script src='<?php echo esc_url( get_home_url() ); ?>/wp-content/themes/vaihe/js/box-animaion.js'></script>
-<script src='<?php echo esc_url( get_home_url() ); ?>/wp-content/themes/vaihe/js/menu.js'></script>
-<script src='<?php echo esc_url( get_home_url() ); ?>/wp-content/themes/vaihe/js/lity.min.js'></script>
-<script src='<?php echo esc_url( get_home_url() ); ?>/wp-content/themes/vaihe/js/page-top.js'></script>
-
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!-- [if lt IE 9]>

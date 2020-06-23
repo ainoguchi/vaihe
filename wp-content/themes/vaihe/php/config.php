@@ -5,7 +5,7 @@
 
 
 //【必須】 自分のメールアドレスの設定 -- 複数のメールアドレスに送信したい場合は、以下の行をコピーして増やしていけばOKです。行頭の//を消せば有効となります。いくつでも追加可能。 --
-//$rm_send_address[] = 'info@vaihe.jp';
+$rm_send_address[] = 'info@vaihe.jp';
 $rm_send_address[] = 'guno.iaa22@gmail.com';
 //$rm_send_address[] = 'bbb@example.co.jp';
 
@@ -13,7 +13,7 @@ $rm_send_address[] = 'guno.iaa22@gmail.com';
 
 
 //【必須】 サンクスページのURL -- index.htmlからの相対パス、またはhttp://からの絶対パス --
-$rm_thanks_page_url = '<?php echo esc_url( get_home_url() ); ?>/contact-thanks/';
+$rm_thanks_page_url = 'https://vaihe.jp/contact-thanks/';
 
 
 
@@ -70,11 +70,16 @@ $rm_thanks_subject = '【お問い合わせ完了】VINHE';
 //【任意】 相手に届く自動返信メールの本文 -- EOMからEOM;までの間の文章を自由に変更してください。 --
 $rm_thanks_body  = <<<EOM
 
-この度は、VINHEにお問い合わせをいただき、ありがとうございました。
-お問い合わせ内容を確認いたしますので、しばらくお待ちください。
+この度は、VINHEにお問い合わせを
+いただきありがとうございました。
+お問い合わせ内容を確認いたしますので、
+メールが届くまでしばらくお待ちください。
+
 ※尚、通常１週間以内に返信いたします。
 
-以下の内容でお問い合わせをお受けいたしました。
+
+以下の内容で、
+お問い合わせをお受けいたしました。
 
 EOM;
 
@@ -87,10 +92,10 @@ $rm_thanks_body_signature = <<<EOM
 ※ご返信の際には、当メールアドレス宛てにお願い致します。
 -----------------------------------------------------------------------------------
 
-　　VINHE
+　VINHE
 　　https://vaihe.jp/
 
-　　MAIL : info@vaihe.jp
+　MAIL : info@vaihe.jp
 
 -----------------------------------------------------------------------------------
 

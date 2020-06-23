@@ -7,7 +7,7 @@ Template Name: GALLERY
 <?php get_header();?>
 
 <main>
-    <div class="hero_s bg_gallery">
+    <div class="hero_s bg_gallery mb-15">
         <div class="hero_s_text">
             <h1 class="hero_text">Gallery</h1>
             <p class="hero_text_ja">撮影・制作物一覧</p>
