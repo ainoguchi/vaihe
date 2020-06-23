@@ -1,0 +1,1117 @@
+/* all ------------------------------------- */
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+body{
+	margin: 0;
+	background: #fff!important;
+	line-height: 1.5;
+}
+
+p, dl, dd{
+	font-weight: 500;
+	font-family: Linotte, YuGothic, "Yu Gothic", 游ゴシック体, 游ゴシック, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Roboto, メイリオ, Meiryo, "ＭＳ Ｐゴシック", Osaka, "MS PGothic", Arial, Helvetica, Verdana, sans-serif;
+}
+
+.mb-15{
+	margin-bottom: 15px!important;
+}
+
+.mb-30{
+	margin-bottom: 30px!important;
+}
+
+.pc{
+	display: block;
+}
+
+.sp{
+	display: none;
+}
+
+.text_red{
+	color: red;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+	padding-left: 15px;
+    padding-right: 15px;
+}
+
+header h1{
+	margin: 0;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 1.5;
+	text-align: right;
+}
+
+header h2{
+	margin: 35px 0;
+	font-size: 26px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	float: left;
+}
+
+.contents{
+	width: 100%;
+	overflow: hidden;
+	padding: 3em 0;
+}
+
+.contents_gray {
+	padding: 3em 0;
+	background: rgba(0, 0, 0, 0.03);
+}
+
+.contents_orange {
+	padding: 3em 0;
+	background: #ffd04b;
+}
+
+.headline{
+	position: relative;
+	margin: 0;
+	color: #3e3e3e;
+	font-size: 48px;
+	font-weight: bold;
+	font-family: "Source Sans Pro", Arial, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.headline_red{
+	color: #ff5b5b;
+}
+
+.headline_ja{
+	color: #e89075;
+	font-size: 16px;
+	font-weight: 500;
+	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+.headline_el{
+	position: relative;
+	margin: 0;
+	color: #3e3e3e;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.headline_el_en{
+	margin-bottom: 15px;
+	color: #e89075;
+	font-size: 14px;
+	font-weight: 500;
+	font-family: "Source Sans Pro", Arial, sans-serif;
+	text-align: center;
+}
+
+.headline_el_p{
+	margin: 15px 0;
+	color: #3e3e3e;
+    font-size: 25px;
+    font-weight: 500;    
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+	text-align: center;
+}
+
+dl.headline_text{
+	margin: 0;
+}
+
+dl.headline_text dd{
+	margin: 0;
+	font-size: 17px;
+	font-weight: 500;
+	font-family: Linotte, YuGothic, "Yu Gothic", 游ゴシック体, 游ゴシック, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Roboto, メイリオ, Meiryo, "ＭＳ Ｐゴシック", Osaka, "MS PGothic", Arial, Helvetica, Verdana, sans-serif;
+	text-align: center;
+	line-height: 2;
+}
+
+dl.headline_text dd span{
+	display: inline-block;
+	margin-left: 15px;
+    padding: 0 10px;
+    color: #fff;
+    background: #128df1;
+    border-radius: 6px;
+}
+
+.headline_b{
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+/* box-animation */
+
+.contents_el{
+	margin: 30px 0 0;
+	padding: 0;
+	display: flex;
+  	flex-flow: row wrap;
+}
+
+.contents_el p{
+	font-size: 16px;
+}
+
+.contents_el_box{
+	margin-bottom: 30px;
+	padding: 0 15px;
+	border: 3px solid #9c9c9c;
+	border-radius: 20px;
+	flex: 1;
+	background-color: #fff;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+	transition: all .25s ease;
+	animation: populate .5s ease-out normal backwards;
+	min-height: 351px;
+}
+
+.contents_el_box:hover{
+	transform: scale(1.05);
+    z-index: 1;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.contents_el_boxB{
+	flex: 1;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+	transition: all .25s ease;
+	animation: populate .5s ease-out normal backwards;
+}
+
+.contents_el_boxB:hover{
+	transform: scale(1.05);
+    z-index: 1;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes populate {
+	0% {
+	  transform: scale(0);
+	}
+}
+
+/* scroll */
+
+.effect-fade {
+	opacity : 0;
+	transform : translate(0, 45px);
+	transition : all 300ms;
+}
+	
+.effect-fade.effect-scroll {
+	opacity : 1;
+	transform : translate(0, 0);
+}
+
+/* button */
+
+
+.btn_animation{
+	margin-top: 30px;
+}
+
+.btn_m {
+	display: block;
+	position: relative;
+	width: 200px;
+	margin: 0 auto 15px;
+	padding: 15px 0;
+	font-size: 20px;
+	font-weight: 700;
+	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+	text-decoration: none;
+	letter-spacing: 4px;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	color: #fff;
+	border: none;
+	border-radius: 100vh;
+	background-image: -webkit-gradient(
+	  linear,
+	  left top,
+	  right top,
+	  from(#5e62fb),
+	  to(#1a93ef)
+	);
+	background-image: -webkit-linear-gradient(left, #5e62fb 0%, #1a93ef 100%);
+	background-image: linear-gradient(to right, #5e62fb 0%, #1a93ef 100%);
+	-webkit-box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn_m:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	color: #fff;
+}
+
+.arrow{
+    position: relative;
+    display: inline-block;
+    padding: 0 14px 0 0;
+}
+
+.arrow::before,
+.arrow::after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+	left: 0;
+    margin: auto;
+    content: "";
+    vertical-align: middle;
+}
+
+.arrow_r::before{
+    right: -120px;
+	width: 14px;
+    height: 2px;
+    background: #fff;
+}
+.arrow_r::after{
+    width: 13px;
+    right: -120px;
+    height: 13px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+
+
+
+/* header ---------------------------------- */
+
+header{
+	position: relative;
+	width: 100%;
+}
+
+.header_nav{
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.6);
+	border-top: 5px solid rgba(255, 189, 89, 0.75);
+	z-index: 2;
+}
+
+.header_navSp{
+	display: none;
+}
+
+.header_navInner{
+	width: 100%;
+	overflow: hidden;
+}
+
+.header_navInner h2{
+	margin: 0;
+    padding: 15px 0;
+}
+
+.brand_logo{
+	height: 55px;
+}
+
+.navigation_pc{
+	display: flex;
+	margin: 0;
+	float: right;
+	list-style: none;
+}
+
+.navigation_pc li{
+	margin: 0;
+    line-height: 85px;
+}
+
+.navigation_pc a{
+	display: block;
+	padding: 0 15px;
+	color: #fff;
+	line-height: 85px;
+	font-size: 19px;
+	font-weight: 500;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+	text-decoration: none;
+}
+
+.navigation_pc a:hover{
+	background: rgba(255, 189, 89, 0.75);
+	color: #2c2c2c;
+}
+
+/* page top */
+
+.page_top{
+	width: 75px;
+    height: 75px;
+	position: fixed;
+	right: 1%;
+	bottom: 1%;
+	background: #3f98ef;
+	opacity: 0.6;
+	border-radius: 50%;
+}
+
+.page_top a{
+	position: relative;
+	display: block;
+	width: 75px;
+    height: 75px;
+	text-decoration: none;
+}
+
+.page_top a::before{
+	content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 0px;
+    border-top: solid 4px #fff;
+    border-right: solid 4px #fff;
+    -ms-transform: rotate(315deg);
+    -webkit-transform: rotate(315deg);
+    transform: rotate(315deg);
+    top: 35px;
+    left: 25px;
+    margin-top: -4px;
+}
+
+
+
+/* footer ---------------------------------- */
+
+.footer_lend{
+	position: relative;
+	width: 100%;
+	height: 450px;
+	background: url(/wp-content/themes/vaihe/img/bg_01.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+}
+
+.footer_lend_cover{
+	background-color: rgba(0, 0, 0, 0.3);
+    height: 450px;
+}
+
+.footer_lend_contact{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: inline-block;
+	margin: 0 auto;
+	max-width: 620px;
+	width: 100%;
+}
+
+.footer_nav{
+	background: #3a332f;
+	padding-bottom: 45px;
+}
+
+.fotter_navInner{
+	margin: 0;
+	padding: 45px 0;
+	text-align: center;
+}
+
+.fotter_navInner li{
+	display: inline-flex;
+	margin: 0 30px;
+	list-style: none;
+	letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.fotter_navInner li a{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+.fotter_navInner li a:hover{
+	color: #ffbd59;
+}
+
+.copyright{
+	padding: 8px 0;
+	background: #fff;
+	border-bottom: 1px solid #cccccc;
+}
+
+.copyright_text{
+	margin: 0;
+	color: #333333;
+	font-size: 15px;
+	font-weight: 500;
+	font-family: Linotte, YuGothic, "Yu Gothic", 游ゴシック体, 游ゴシック, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Roboto, メイリオ, Meiryo, "ＭＳ Ｐゴシック", Osaka, "MS PGothic", Arial, Helvetica, Verdana, sans-serif;
+	letter-spacing: 1px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+
+/* top ---------------------------------- */
+
+.hero{
+	position: relative;
+	overflow: hidden;
+	border-bottom: 5px solid #3e3e3e;
+}
+
+.hero_video::after{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+    height: 100%;
+	background-image: url(/wp-content/themes/vaihe/img/line.png);
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.hero_video_pc{
+	display: block;
+}
+
+.hero_video_sp{
+	display: none;
+}
+
+
+.work_logo{
+	display: block;
+	margin: 15px auto;
+	max-width: 100%;
+	width: 65px;
+}
+
+.i_img{
+	padding: 0 30px 30px;
+}
+
+.intro{
+	overflow: hidden;
+}
+
+.intro_f{
+    padding: 3em;
+    background: #fff;
+}
+
+.intro dd{
+	font-size: 17px;
+	font-weight: 500;
+	font-family: Linotte, YuGothic, "Yu Gothic", 游ゴシック体, 游ゴシック, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Roboto, メイリオ, Meiryo, "ＭＳ Ｐゴシック", Osaka, "MS PGothic", Arial, Helvetica, Verdana, sans-serif;
+	line-height: 2;
+}
+
+.intro_el{
+	position: relative;
+	margin: 0;
+	color: #3e3e3e;
+	font-size: 48px;
+	font-weight: bold;
+	font-family: "Source Sans Pro", Arial, sans-serif;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.intro_el_ja{
+	color: #e89075;
+	font-size: 16px;
+	font-weight: 500;
+	font-family: "游明朝", "YuMincho", "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	text-align: center;
+}
+
+.news_ja{
+	color: #3e3e3e!important;
+}
+
+.news dd{
+	background: #fff;
+	border-bottom: 4px solid #929292;
+	line-height: 3;
+	font-size: 17px;
+	padding: 0 30px;
+}
+
+.news_date{
+	display: inline-block;
+	margin-right: 30px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.bg_top{
+	background: url(/wp-content/themes/vaihe/img/bg_03.jpg) no-repeat;
+	background-size: cover;
+    background-position: center center;
+}
+
+.bg-intro{
+	background: url(/wp-content/themes/vaihe/img/bg_02.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 450px;
+}
+
+
+/* sub page ------------------------------- */
+
+.hero_s{
+	position: relative;
+	height: 400px;
+}
+
+.hero_s:after, .hero_s:before {
+	content: "";
+	display: block;
+	position: absolute;
+    width: 1px;
+    height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    left: 0;
+	right: 0;
+}
+
+.hero_s:before {
+    border-right: 2px solid #fff;
+    bottom: 0;
+}
+
+.hero_s:after {
+    border-right: 2px solid #181818;
+    bottom: -30px;
+}
+
+.hero_s_text{
+	position: absolute;
+	top: 50%;
+    left: 0;
+    right: 0;
+}
+
+.hero_text{
+	margin: 0;
+	text-align: center;
+	color: #fff;
+	font-size: 38px;
+    font-weight: bold;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.hero_text_ja{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	font-family: "游明朝", "YuMincho", "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	text-align: center;
+}
+
+.bg_work{
+	background: url(/wp-content/themes/vaihe/img/hero_work.jpg) no-repeat;
+	background-size: cover;
+    background-position: center center;
+}
+
+.bg_about{
+	background: url(/wp-content/themes/vaihe/img/hero_about.jpg) no-repeat;
+	background-size: cover;
+    background-position: center center;
+}
+
+.bg_gallery{
+	background: url(/wp-content/themes/vaihe/img/hero_gallery.jpg) no-repeat;
+	background-size: cover;
+    background-position: center center;
+}
+
+.bg_blog{
+	background: url(/wp-content/themes/vaihe/img/hero_blog.jpg) no-repeat;
+	background-size: cover;
+    background-position: center center;
+}
+
+.bg_contact{
+	background: url(/wp-content/themes/vaihe/img/hero_contact.jpg) no-repeat;
+	background-size: cover;
+    background-position: center center;
+}
+
+.bg-form{
+	background: #fffee5;
+}
+
+.work_img{
+	display: block;
+	margin: 0 0 30px;
+}
+
+.intro_img{
+	background: url(/wp-content/themes/vaihe/img/logo_m.png) no-repeat;
+	background-size: auto 100%;
+	background-position: center center;
+	height: 240px;
+	margin-bottom: 30px;
+}
+
+
+
+
+@media ( max-width: 1200px ) {
+
+/* all ------------------------------------- */
+	.contents{		
+		padding: 3em 0;
+	}
+
+	.contents_gray{		
+		padding: 3em 0;
+	}
+
+	.container{
+		width: 100%;
+		max-width: 100%;
+		padding: 0;
+	}
+
+/* header ---------------------------------- */
+	.navigation_pc a{
+		padding: 0 8px;
+		font-size: 18px;
+		letter-spacing: 0;
+	}
+
+/* sub page -------------------------------- */
+	.work_img{
+		margin-bottom: 15px;
+	}
+}
+
+
+
+
+
+@media ( max-width: 768px ) {
+
+/* all ------------------------------------- */
+	.pc{
+		display: none;
+	}
+
+	.sp{
+		display: block;
+	}
+
+	.contents{		
+		padding: 1.5em 0;
+	}
+
+	.contents_gray{		
+		padding: 1.5em 0;
+	}
+
+	.contents_el_box{
+		min-height: 0;
+	}
+
+	.hero_s{
+		height: 240px;
+	}
+
+	.hero_text{
+		font-size: 28px;
+	}
+
+	.hero_text_ja{
+		font-size: 16px;
+	}
+
+	.headline{
+		font-size: 32px;
+	}
+
+	.headline_el_p{
+		margin: 15px 0 30px;
+	}
+
+	dl.headline_text dd span{
+		margin: 0 0 8px 8px;
+	}
+
+	.news dd{
+		padding: 15px;
+		line-height: 1;
+	}
+
+	.news_date{
+		margin: 0 0 15px 0;
+	}
+
+	.page_top, .page_top a{
+		width: 50px;
+		height: 50px;	
+	}
+
+	.page_top a::before{
+		width: 20px;
+		height: 20px;
+		top: 24px;
+		left: 16px;
+	}
+
+/* header ---------------------------------- */
+	.header_nav{
+		display: none;
+	}
+
+	.header_navSp{
+		display: block;
+		position: absolute;
+		width: 100%;
+	}
+
+	header h1{
+		font-size: 14px;
+		text-align: center;
+	}
+
+	.header_navInner{
+		position: absolute;
+		padding: 10px;
+		background: rgba(0, 0, 0, 0.8);
+		z-index: 2;
+	}
+
+	.header_navInner h2 {
+		padding: 0;
+	}
+
+	.brand_logo {
+		height: 40px;
+	}
+
+  /*ハンバーガーボタン*/
+	.el_humburger {
+		position: absolute;
+		top: 18px;
+		right: 18px;
+		width: 26px;
+		height: auto;
+		padding-top: 1px;
+		box-sizing: border-box;
+		transition: all 0.2s ease-in-out;
+		cursor: pointer;
+		z-index: 9999999;
+		pointer-events: auto;
+	}
+  
+	.el_humburger > span {
+		display: block;
+		width: 100%;
+		margin: 0 auto 6px;
+		height: 3px;
+		background: #ffbd59;
+		transition: all 0.2s ease-in-out;
+	}
+
+	.el_humburger > span:last-child {
+		margin-bottom: 0;
+	}
+	
+	.js_humburgerOpen .el_humburger > span {
+		background: #fff;
+	}
+  
+	.js_humburgerOpen .el_humburger > span.top {
+		transform: translateY(9px) rotate(-45deg);
+	}
+  
+	.js_humburgerOpen .el_humburger > span.middle {
+		opacity: 0;
+	}
+  
+	.js_humburgerOpen .el_humburger > span.bottom {
+		transform: translateY(-9px) rotate(45deg);
+	}
+  
+	.el_humburgerButton.el_humburgerButton__close {
+		top: 2%;
+		right: 2%;
+	}
+  
+	.el_humburgerButton__close > span {
+		display: block;
+		width: 35px;
+		margin: 0 auto;
+		height: 4px;
+		background: #fff;
+  	}
+  
+	.el_humburgerButton__close > span.el_humburgerLineTop {
+		transform: translateY(5px) rotate(-45deg);
+	}
+  
+	.el_humburgerButton__close > span.el_humburgerLineBottom {
+		transform: translateY(-6px) rotate(45deg);
+	}
+  
+  /*ナビゲーション*/
+	.uq_spNavi {
+		display: none;
+	}
+
+	.uq_spNavi .js_appear {
+		position: fixed;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		display: block;
+		background-color: #fff;
+		z-index: 9999;
+	}
+
+	.js_appear{
+		background: rgba(255, 255, 255, 0.9);;
+		z-index: 10;
+	}
+  
+	.uq_spNavi_screen {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		background-color: rgba(255, 255, 255, 0.96);
+		z-index: 0;
+		margin-top: 0px;
+		padding-top: 0px;
+		overflow: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+  
+	.navigation {
+		padding: 50px 0;
+		margin-top: 60px;
+		text-align: center;
+		position: absolute;
+		width: 100%;
+		background: rgba(255, 255, 255, 0.9);
+	}
+  
+	.navigation_item {
+		margin-bottom: 30px;
+	}
+  
+	.navigation_item > a {
+		color: #3e3e3e;
+		text-decoration: none;
+	    font-size: 18px;
+		font-weight: bold;
+		font-family: "Source Sans Pro", Arial, sans-serif;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+  
+	.js_fixed {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+	}
+
+
+/* footer ---------------------------------- */
+.footer_lend{
+	background: url(/wp-content/themes/vaihe/img/bg_01s.jpg) no-repeat;
+	}
+
+	.footer_nav{
+		padding-bottom: 15px;
+	}
+
+	.fotter_navInner{
+		padding: 0 0 15px;
+	}
+
+	.fotter_navInner li{
+		width: 100%;
+		margin: 0;
+		border-bottom: 1px solid #e4bf88;
+	}
+
+	.fotter_navInner li a{
+		width: 100%;
+		padding: 15px 30px;
+		text-align: left;
+	}
+
+	.footer_lend_contact{
+		width: 90%;
+	}
+
+/* top ------------------------------------- */
+	.bg-intro{
+		height: 310px;
+	}
+
+	.intro_f{
+		padding: 1.5em 15px;
+	}
+
+	.intro_el{
+		font-size: 32px;
+	}
+
+	.bg_top{
+		background: url(/wp-content/themes/vaihe/img/bg_03s.jpg);
+		background-size: contain;
+	}
+
+}
+
+
+
+
+
+@media ( max-width: 420px ) {
+
+/* all ------------------------------------- */
+	.hero_text {
+		font-size: 22px;
+	}
+
+	.hero_text_ja {
+		font-size: 14px;
+	}
+
+	.headline{
+		font-size: 20px;
+	}
+
+	.headline_ja{
+		font-size: 14px;
+	}
+
+	.headline_el{
+		font-size: 16px;
+	}
+
+	.headline_el_p{
+		font-size: 18px;
+	}
+
+	dl.headline_text dd{
+		font-size: 14px;
+		text-align: left;
+	}
+
+	.contents_el p {
+		font-size: 14px;
+	}
+
+	.btn_m{
+		width: 80%;
+		font-size: 16px;
+	}
+
+	.copyright_text{
+		font-size: 13px;
+	}
+
+/* header ---------------------------------- */
+	.brand_logo {
+		height: 36px;
+	}
+
+	.header_navSp{
+		position: relative;
+	}
+
+	.navigation{
+		margin-top: 56px;
+	}
+
+/* footer ---------------------------------- */
+	.footer_lend, .footer_lend_cover {
+		height: 310px;
+	}
+
+	.fotter_navInner li a{
+		font-size: 14px;
+	}
+
+/* top ------------------------------------- */
+	.hero_video_pc{
+		display: none;
+	}
+
+	.hero_video_sp{
+		display: block;
+		margin-top: 55px;
+	}
+
+	.hero_video::after{
+		top: 55px;
+	}
+
+	.intro_el{
+		padding: 10px 0;
+		font-size: 20px;
+	}
+
+	.intro dd{
+		font-size: 14px;
+	}
+
+	.news dd{
+		font-size: 14px;
+	}
+
+/* sub page -------------------------------- */
+	.intro_img{
+		height: 130px;
+		margin-bottom: 15px;
+	}
+
+}
