@@ -1,3 +1,9 @@
+<?php
+/*
+Template Name: HOME
+*/
+?>
+
 <?php get_header();?>
 
 <main>
@@ -12,7 +18,7 @@
         <div class="container">
             <div class="col-md-12 effect-fade">
                 <h2 class="headline">Wh<span class="headline_red">a</span>t I do</h2>
-                <p class="headline_ja">VINHEのWebサイト制作</p>
+                <p class="headline_ja">VAIHEのWebサイト制作</p>
                 <dl>
                     <dd></dd>
                 </dl>
