@@ -17,8 +17,8 @@ Template Name: BLOG
     <div class="contents">
         <div class="container">
             <div class="col-md-12 effect-fade">
-                <h2 class="intro_el">B<span class="headline_red">l</span>og</h2>
-                <p class="intro_el_ja">ブログ</p>
+                <h2 class="intro_headline">B<span class="headline_red">l</span>og</h2>
+                <p class="intro_headline_ja">ブログ</p>
                 <dl class="headline_text">
                     <dd>ブログは只今準備中です。</dd>
                 </dl>

@@ -17,8 +17,8 @@ Template Name: ABOUT
     <div class="contents">
         <div class="container">
             <div class="col-md-12 effect-fade">
-                <h2 class="intro_el">C<span class="headline_red">a</span>reer</h2>
-                <p class="intro_el_ja">経験・キャリア</p>
+                <h2 class="intro_headline">C<span class="headline_red">a</span>reer</h2>
+                <p class="intro_headline_ja">経験・キャリア</p>
 
                 <div class="intro_img"></div>
 

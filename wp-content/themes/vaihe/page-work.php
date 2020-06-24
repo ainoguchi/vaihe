@@ -17,8 +17,8 @@ Template Name: WORK
     <div class="contents">
         <div class="container">
             <div class="col-md-12 effect-fade">
-                <h2 class="intro_el">Web p<span class="headline_red">r</span>oduction</h2>
-                <p class="intro_el_ja">ウェブサイト制作・ウェブデザイン</p>
+                <h2 class="intro_headline">Web p<span class="headline_red">r</span>oduction</h2>
+                <p class="intro_headline_ja">ウェブサイト制作・ウェブデザイン</p>
                 <dl class="headline_text">
                     <dd>デザインからHTML、CSS、JavaScrptを使用したコーディングまで。</dd>
                     <dd>ウェブサイト制作全般に対応いたします。</dd>

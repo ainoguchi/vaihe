@@ -17,8 +17,8 @@ Template Name: CONTACT
     <div class="contents bg-form">
         <div class="container">
             <div class="col-md-12 effect-fade">
-                <h2 class="intro_el">Cont<span class="headline_red">a</span>ct form</h2>
-                <p class="intro_el_ja">お問い合わせフォーム</p>
+                <h2 class="intro_headline">Cont<span class="headline_red">a</span>ct form</h2>
+                <p class="intro_headline_ja">お問い合わせフォーム</p>
                 <dl class="headline_text">
                     <dd>お問い合わせはこちらからお願い致します。</dd>
                     <dd>通常１週間以内に、ご入力いただいたメールアドレス宛てに返信いたします。</dd>
