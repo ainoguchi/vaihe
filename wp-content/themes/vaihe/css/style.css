@@ -524,12 +524,19 @@ header{
 }
 
 .intro{
-	overflow: hidden;
+	position: relative;
+    height: 590px;
+    padding: 50px;
+    overflow: hidden;
+    background: url(/wp-content/themes/vaihe/img/bg_04.jpg) no-repeat;
+    background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
 }
 
-.intro_f{
-    padding: 3em;
-    background: #fff;
+.intro_el{
+	position: absolute;
+    right: 50px;
 }
 
 .intro dd{
@@ -539,7 +546,12 @@ header{
 	line-height: 2;
 }
 
-.intro_el{
+.intro_el_box{
+	padding: 30px;
+	background: #fff;
+}
+
+.intro_headline{
 	position: relative;
 	margin: 0;
 	color: #3e3e3e;
@@ -551,7 +563,7 @@ header{
 	text-align: center;
 }
 
-.intro_el_ja{
+.intro_headline_ja{
 	color: #e89075;
 	font-size: 16px;
 	font-weight: 500;
@@ -585,10 +597,13 @@ header{
 }
 
 .bg-intro{
-	background: url(/wp-content/themes/vaihe/img/bg_02.jpg) no-repeat;
-	background-size: cover;
-	background-position: center center;
-	height: 450px;
+	position: absolute;
+    left: 65px;
+    bottom: 50px;
+    background: url(/wp-content/themes/vaihe/img/bg_02.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 440px;
 }
 
 
@@ -993,13 +1008,22 @@ header{
 /* top ------------------------------------- */
 	.bg-intro{
 		height: 310px;
+		left: 0;
+		top: 30px;
 	}
 
-	.intro_f{
-		padding: 1.5em 15px;
+	.intro{
+		height: 690px;
 	}
 
 	.intro_el{
+		padding: 1.5em 15px;
+		height: auto;
+		right: 0;
+		bottom: 0;
+	}
+
+	.intro_headline{
 		font-size: 32px;
 	}
 
@@ -1095,7 +1119,11 @@ header{
 		top: 55px;
 	}
 
-	.intro_el{
+	.intro_el_box {
+		padding: 15px;
+	}	
+
+	.intro_headline{
 		padding: 10px 0;
 		font-size: 20px;
 	}

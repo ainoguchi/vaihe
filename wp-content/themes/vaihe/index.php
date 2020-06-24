@@ -111,15 +111,17 @@
     <div class="intro">
         <div class="bg-intro col-md-6 float-md-left effect-fade">
         </div>
-        <div class="intro_f col-md-6 float-md-left effect-fade">
-            <h2 class="intro_el">About <span class="headline_red">m</span>e</h2>
-            <p class="intro_el_ja">私について</p>
-            <dl>
-                <dd>1991年生まれ。神奈川県川崎市在住のWEBデザイナーです。Webの専門スクールに通い、Web業界に必要な知識やスキルを学んだ後に、東京のWeb制作会社でWebデザイナー職に就き、実務経験を積んできました。ユーザー目線を大切にしたWebサイト設計・制作を大切にしています。</dd>
-            </dl>
-            <div class="col-md-12">
-                <div class="btn_animation">
-                    <a href="<?php echo esc_url( get_home_url() ); ?>/about" class="btn btn_m"><span class="arrow arrow_r">MORE</span></a>
+        <div class="intro_el col-md-6 float-md-left effect-fade">
+            <div class="intro_el_box">
+                <h2 class="intro_headline">About <span class="headline_red">m</span>e</h2>
+                <p class="intro_headline_ja">私について</p>
+                <dl>
+                    <dd>1991年生まれ。神奈川県川崎市在住のWEBデザイナーです。Webの専門スクールに通い、Web業界に必要な知識やスキルを学んだ後に、東京のWeb制作会社でWebデザイナー職に就き、実務経験を積んできました。ユーザー目線を大切にしたWebサイト設計・制作を大切にしています。</dd>
+                </dl>
+                <div class="col-md-12">
+                    <div class="btn_animation">
+                        <a href="<?php echo esc_url( get_home_url() ); ?>/about" class="btn btn_m"><span class="arrow arrow_r">MORE</span></a>
+                    </div>
                 </div>
             </div>
         </div>
