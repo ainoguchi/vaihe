@@ -80,7 +80,7 @@ header h2{
 .headline{
 	position: relative;
 	margin: 0;
-	color: #3e3e3e;
+	color: #fff;
 	font-size: 48px;
 	font-weight: bold;
 	font-family: "Source Sans Pro", Arial, sans-serif;
@@ -559,7 +559,7 @@ header{
 	text-align: center;
 }
 
-.news_ja{
+.news_font{
 	color: #3e3e3e!important;
 }
 

@@ -90,8 +90,8 @@
     <div class="contents contents_orange mt-0 mb-0">
         <div class="container news">
             <div class="col-md-12 effect-fade">
-                <h2 class="headline">N<span class="headline_red">e</span>ws</h2>
-                <p class="headline_ja news_ja">更新情報・お知らせ</p>
+                <h2 class="headline news_font">N<span class="headline_red">e</span>ws</h2>
+                <p class="headline_ja news_font">更新情報・お知らせ</p>
                 <dl>
                     <dd><span class="news_date">2020/06/18</span><br class="sp">
                         WORKSページを更新致しました。</dd>
