@@ -346,7 +346,8 @@ header{
 
 .navigation_pc li{
 	margin: 0;
-    line-height: 85px;
+	line-height: 85px;
+	float: left;
 }
 
 .navigation_pc a{
@@ -446,7 +447,7 @@ header{
 }
 
 .fotter_navInner li{
-	display: inline-flex;
+	display: inline-block;
 	margin: 0 30px;
 	list-style: none;
 	letter-spacing: 1px;
@@ -993,6 +994,8 @@ header{
 		width: 100%;
 		margin: 0;
 		border-bottom: 1px solid #e4bf88;
+		text-align: left;
+		padding: 11px 0;
 	}
 
 	.fotter_navInner li a{
