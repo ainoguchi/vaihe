@@ -455,6 +455,7 @@ header{
 }
 
 .fotter_navInner li a{
+	display: inline-block;
 	color: #fff;
 	font-size: 16px;
 	font-weight: 500;
@@ -995,7 +996,6 @@ header{
 		margin: 0;
 		border-bottom: 1px solid #e4bf88;
 		text-align: left;
-		padding: 11px 0;
 	}
 
 	.fotter_navInner li a{
